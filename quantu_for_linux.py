@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 import re
 import os
 import time
-import winsound
 import _thread
 categaries = {}
 person = {}
@@ -174,7 +173,7 @@ def threads(s,e):
 				downloadimg(download_urls[k],download_names[k])
 		except:
 			pass
-	winsound.Beep(1000,1000)
+	
 #threads(0,5)
 
 try:
